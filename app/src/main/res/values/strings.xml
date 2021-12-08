@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">YanuX Next Generation</string>
-    <string name="service">Service</string>
-    <string name="enable">Enable</string>
-    <string name="Disable">Disable</string>
+    <string name="service_enabled">Service Enabled</string>
+    <string name="service_disabled">Service Disabled</string>
+    <string name="permissions_required">Permissions Required</string>
+    <string name="permissions_required_message">Please grant all the permissions so that the application can work properly.</string>
+    <string name="functionality_limited">Functionality Limited</string>
+    <string name="functionality_limited_message">"Since some permissions have not been granted, this app will not be able to discover beacons. Please go to Settings -> Applications -> Permissions and grant all the permissions required by this app."</string>
+
 </resources>

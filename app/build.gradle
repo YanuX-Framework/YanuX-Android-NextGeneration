@@ -47,7 +47,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
-
     implementation 'com.google.android.material:material:1.5.0-beta01'
 
     implementation 'androidx.compose.ui:ui:1.0.5'
@@ -57,10 +56,14 @@ dependencies {
     implementation 'androidx.compose.foundation:foundation:1.0.5'
     // Animations
     implementation 'androidx.compose.animation:animation:1.0.5'
+
     // Material Design
     implementation 'androidx.compose.material:material:1.0.5'
-    //// Material Design 3
-    // implementation 'androidx.compose.material3:material3:1.0.0-alpha02'
+    /*
+    // Material Design 3
+    implementation 'androidx.compose.material3:material3:1.0.0-alpha02'
+    */
+
     // Material design icons
     implementation 'androidx.compose.material:material-icons-core:1.0.5'
     implementation 'androidx.compose.material:material-icons-extended:1.0.5'
@@ -74,15 +77,20 @@ dependencies {
     // Integration with activities
     implementation 'androidx.activity:activity-compose:1.4.0'
 
-    implementation "com.google.accompanist:accompanist-systemuicontroller:0.20.2"
-
-
     // Compatible with Compose Material, includes MdcTheme
     implementation "com.google.android.material:compose-theme-adapter:1.1.1"
-    /// Compatible with Compose Material 3, includes Mdc3Theme
-    //implementation "com.google.android.material:compose-theme-adapter-3:1.0.1"
-    /// When using a AppCompat theme
-    //implementation "com.google.accompanist:accompanist-appcompat-theme:0.16.0"
+
+    /*
+    // Compatible with Compose Material 3, includes Mdc3Theme
+    implementation "com.google.android.material:compose-theme-adapter-3:1.0.1"
+    */
+
+    /*
+    // When using a AppCompat theme
+    implementation "com.google.accompanist:accompanist-appcompat-theme:0.16.0"
+    */
+
+    implementation 'org.altbeacon:android-beacon-library:2.19.3'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
